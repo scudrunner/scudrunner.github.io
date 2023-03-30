@@ -32,7 +32,7 @@ L.geoJson(data).addTo(newMap);
 
 var geojson = new L.GeoJSON.AJAX("usa_adm.geojson");
 geojson.on('data:loaded', function(){
-geojson.addTo(mymap);
+geojson.addTo(newMap);
 });
   
 </script>
